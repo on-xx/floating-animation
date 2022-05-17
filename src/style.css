@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-banner {
+    height: 80vh;
+    width: 100%;
+    background: #111;
+}
+
+#main-banner .main-banner {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-right: 30%;
+}
+
+.main-banner-content > * {
+    flex-basis: 100%;
+}
+
+.main-banner-content h1 {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+}
+
+.main-banner-content .section-separator {
+    display: block;
+    width: 80%;
+    height: 1px;
+    background: red;
+    margin-bottom: 10px;
+}
+
+.main-banner-content h3 {
+    color: #999;
+}
+
+
+
+.main-banner .sgs-img {
+    width: 20%;
+    position: absolute;
+    right: 25%;
+    top: 25%;
+    z-index: 1;
+    animation: fadeInFromTop .5s linear forwards, floating ease 2s infinite;
+}
+
+.main-banner .jjm-img {
+    width: 20%;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    z-index: 2;
+    animation: fadeInFromTop .5s linear forwards, floating ease 2s infinite;
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0%, 0%) ;
+    }
+
+    50% {
+        transform: translate(0%, 10%) ;
+    }
+
+    100% {
+        transform: translate(0%, 0%) ;
+    }
+}
