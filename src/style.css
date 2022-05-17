@@ -27,6 +27,7 @@
     align-items: center;
     color: #fff;
     margin-right: 30%;
+    animation: fadeInFromTop 1s linear;
 }
 
 
@@ -54,7 +55,7 @@
     width: 20%;
     position: absolute;
     right: 25%;
-    top: 25%;
+    top: 30%;
     z-index: 1;
     animation: fadeInFromTop .5s linear forwards, floating ease 2s infinite;
 }
@@ -62,7 +63,7 @@
 .main-banner .jjm-img {
     width: 20%;
     position: absolute;
-    top: 25%;
+    top: 30%;
     right: 10%;
     z-index: 2;
     animation: fadeInFromTop .5s linear forwards, floating ease 2s infinite;
