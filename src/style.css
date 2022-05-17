@@ -29,9 +29,7 @@
     margin-right: 30%;
 }
 
-.main-banner-content > * {
-    flex-basis: 100%;
-}
+
 
 .main-banner-content h1 {
     font-size: 2.7rem;
@@ -41,7 +39,7 @@
 .main-banner-content .section-separator {
     display: block;
     width: 80%;
-    height: 1px;
+    height: 2px;
     background: red;
     margin-bottom: 10px;
 }
